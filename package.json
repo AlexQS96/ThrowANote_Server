@@ -1,0 +1,21 @@
+{
+  "name": "throwanote_server",
+  "version": "1.0.0",
+  "description": "Anonymous Notes Page",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "npx nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [
+    "throw a note"
+  ],
+  "author": "alexqs96",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5"
+  }
+}
