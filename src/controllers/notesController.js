@@ -112,8 +112,10 @@ module.exports = {
             });
         }
 
+        const fixNote = noteid.split('#').join('')
+
         saveThisNote = {
-            id: noteid.split(' ').join('_'),
+            id: fixNote.split(' ').join('_'),
             note: notetext,
             privacy: noteprivacy,
             keynote: notekey

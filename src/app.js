@@ -9,7 +9,7 @@ const port = process.env.PORT || 4000;
 connectDB();
 
 app.use(cors({
-    origin: [process.env.WEBPAGE_URL],
+    origin: [process.env.WEBPAGE_URL, 'http://192.168.1.40:3001'],
     methods: ['GET', 'POST']
 }));
 
