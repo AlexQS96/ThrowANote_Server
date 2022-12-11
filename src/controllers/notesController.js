@@ -112,6 +112,7 @@ module.exports = {
             });
         }
 
+        
         const fixNote = noteid.split('#').join('')
 
         saveThisNote = {
